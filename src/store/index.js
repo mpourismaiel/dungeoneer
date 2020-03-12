@@ -5,6 +5,7 @@ import {
   getSchools,
   getSpellsByLevel,
   getSpellCastingTime,
+  getClasses,
 } from '../utils/spells';
 
 const characterDataKey = 'dungeoneer__character_data';
@@ -48,4 +49,5 @@ const createData = () => {
 export const spells = readable(getSpellsByLevel(spellbook));
 export const spellCastingTimes = readable(getSpellCastingTime(spellbook));
 export const schools = readable(getSchools(spellbook));
+export const classes = readable(getClasses(spellbook));
 export const data = createData();

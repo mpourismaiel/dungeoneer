@@ -1,6 +1,6 @@
 <script>
   import produce from 'immer';
-  import { data, schools, spells, spellCastingTimes } from '../store';
+  import { data, classes, schools, spells, spellCastingTimes } from '../store';
   import { capitalize } from '../utils/string';
   import { toggle } from '../utils/array';
 
@@ -8,6 +8,7 @@
   let filterSchool = [];
   let filterLevel = [];
   let filterCastingTimes = [];
+  let filterClass = [];
   let activeSpell;
 
   let editingSpellSlot;
@@ -103,6 +104,10 @@
           filterSchool.indexOf(spell.meta.school) > -1) &&
         (filterCastingTimes.length === 0 ||
           filterCastingTimes.indexOf(spell.meta.casting_time) > -1) &&
+        (filterClass.length === 0 ||
+          filterClass.some(
+            spellClass => spell.meta.classes.indexOf(spellClass) > -1
+          )) &&
         (!filterMySpells || mySpells.some(data => data.name === spell.name)) &&
         (!filterPreparedSpells ||
           mySpells.some(
@@ -220,6 +225,16 @@
       on:click|preventDefault={() => (filterPreparedSpells = !filterPreparedSpells)}>
       Prepared Spells
     </button>
+  </div>
+
+  <div class="filters-type">
+    {#each $classes as spellClass}
+      <button
+        class:active={filterClass.indexOf(spellClass) > -1}
+        on:click|preventDefault={() => (filterClass = toggle(filterClass, spellClass))}>
+        {capitalize(spellClass)}
+      </button>
+    {/each}
   </div>
 
   <div class="filters-type">
