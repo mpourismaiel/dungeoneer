@@ -1,0 +1,500 @@
+[
+  {
+    "type": "health",
+    "value": 122,
+    "name": "health",
+    "description": "",
+    "meta": { "current": 122, "tmp": 0 }
+  },
+  {
+    "type": "proficiency",
+    "value": 2,
+    "name": "proficiency",
+    "description": "",
+    "meta": {}
+  },
+  {
+    "type": "stat",
+    "value": 11,
+    "name": "strength",
+    "description": [
+      "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+      "A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks."
+    ],
+    "meta": { "modifier": 0, "saving": 0, "proficiency": 0 }
+  },
+  {
+    "type": "stat",
+    "value": 18,
+    "name": "dexterity",
+    "description": [
+      "Dexterity measures agility, reflexes, and balance.",
+      "A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks."
+    ],
+    "meta": { "modifier": 4, "saving": 4, "proficiency": 0 }
+  },
+  {
+    "type": "stat",
+    "value": 19,
+    "name": "constitution",
+    "description": [
+      "Constitution measures health, stamina, and vital force.",
+      "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster."
+    ],
+    "meta": { "modifier": 4, "saving": 9, "proficiency": 1 }
+  },
+  {
+    "type": "stat",
+    "value": 20,
+    "name": "intelligence",
+    "description": [
+      "Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
+      "An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks."
+    ],
+    "meta": { "modifier": 5, "saving": 10, "proficiency": 1 }
+  },
+  {
+    "type": "stat",
+    "value": 15,
+    "name": "wisdom",
+    "description": [
+      "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
+      "A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks."
+    ],
+    "meta": { "modifier": 2, "saving": 2, "proficiency": 0 }
+  },
+  {
+    "type": "stat",
+    "value": 13,
+    "name": "charisma",
+    "description": [
+      "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
+      "A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks."
+    ],
+    "meta": { "modifier": 1, "saving": 1, "proficiency": 0 }
+  },
+  {
+    "type": "skill",
+    "name": "acrobatics",
+    "value": 0,
+    "description": [
+      "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+    ],
+    "meta": { "proficiency": 0, "stat": "dexterity" }
+  },
+  {
+    "type": "skill",
+    "name": "animal handling",
+    "value": 0,
+    "description": [
+      "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver."
+    ],
+    "meta": { "proficiency": 0, "stat": "wisdom" }
+  },
+  {
+    "type": "skill",
+    "name": "arcana",
+    "value": 0,
+    "description": [
+      "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+    ],
+    "meta": { "proficiency": 0, "stat": "intelligence" }
+  },
+  {
+    "type": "skill",
+    "name": "athletics",
+    "value": 0,
+    "description": [
+      "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming."
+    ],
+    "meta": { "proficiency": 0, "stat": "strength" }
+  },
+  {
+    "type": "skill",
+    "name": "deception",
+    "value": 0,
+    "description": [
+      "Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast- talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+    ],
+    "meta": { "proficiency": 0, "stat": "charisma" }
+  },
+  {
+    "type": "skill",
+    "name": "history",
+    "value": 0,
+    "description": [
+      "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
+    ],
+    "meta": { "proficiency": 0, "stat": "intelligence" }
+  },
+  {
+    "type": "skill",
+    "name": "insight",
+    "value": 0,
+    "description": [
+      "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+    ],
+    "meta": { "proficiency": 0, "stat": "wisdom" }
+  },
+  {
+    "type": "skill",
+    "name": "intimidation",
+    "value": 0,
+    "description": [
+      "When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."
+    ],
+    "meta": { "proficiency": 0, "stat": "charisma" }
+  },
+  {
+    "type": "skill",
+    "name": "investigation",
+    "value": 0,
+    "description": [
+      "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check."
+    ],
+    "meta": { "proficiency": 0, "stat": "intelligence" }
+  },
+  {
+    "type": "skill",
+    "name": "medicine",
+    "value": 0,
+    "description": [
+      "A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness."
+    ],
+    "meta": { "proficiency": 0, "stat": "wisdom" }
+  },
+  {
+    "type": "skill",
+    "name": "nature",
+    "value": 0,
+    "description": [
+      "Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+    ],
+    "meta": { "proficiency": 0, "stat": "intelligence" }
+  },
+  {
+    "type": "skill",
+    "name": "perception",
+    "value": 0,
+    "description": [
+      "Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
+    ],
+    "meta": { "proficiency": 0, "stat": "wisdom" }
+  },
+  {
+    "type": "skill",
+    "name": "performance",
+    "value": 0,
+    "description": [
+      "Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
+    ],
+    "meta": { "proficiency": 0, "stat": "charisma" }
+  },
+  {
+    "type": "skill",
+    "name": "persuasion",
+    "value": 0,
+    "description": [
+      "When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+    ],
+    "meta": { "proficiency": 0, "stat": "charisma" }
+  },
+  {
+    "type": "skill",
+    "name": "religion",
+    "value": 0,
+    "description": [
+      "Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
+    ],
+    "meta": { "proficiency": 0, "stat": "intelligence" }
+  },
+  {
+    "type": "skill",
+    "name": "sleight of hand",
+    "value": 0,
+    "description": [
+      "Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."
+    ],
+    "meta": { "proficiency": 0, "stat": "dexterity" }
+  },
+  {
+    "type": "skill",
+    "name": "stealth",
+    "value": 0,
+    "description": [
+      "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+    ],
+    "meta": { "proficiency": 0, "stat": "dexterity" }
+  },
+  {
+    "type": "skill",
+    "name": "survival",
+    "value": 0,
+    "description": [
+      "The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+    ],
+    "meta": { "proficiency": 0, "stat": "wisdom" }
+  },
+  {
+    "type": "language",
+    "name": "abyssal",
+    "value": false,
+    "description": "",
+    "meta": { "type": "exotic", "speakers": ["demons"], "script": "infernal" }
+  },
+  {
+    "type": "language",
+    "name": "celestial",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "exotic",
+      "speakers": ["celestials"],
+      "script": "celestial"
+    }
+  },
+  {
+    "type": "language",
+    "name": "common",
+    "value": false,
+    "description": "",
+    "meta": { "type": "standard", "speakers": ["humans"], "script": "common" }
+  },
+  {
+    "type": "language",
+    "name": "deep-speech",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "exotic",
+      "speakers": ["aboleths", "cloakers"],
+      "script": null
+    }
+  },
+  {
+    "type": "language",
+    "name": "draconic",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "exotic",
+      "speakers": ["dragons", "dragonborn"],
+      "script": "draconic"
+    }
+  },
+  {
+    "type": "language",
+    "name": "dwarvish",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "standard",
+      "speakers": ["dwarves"],
+      "script": "dwarvish"
+    }
+  },
+  {
+    "type": "language",
+    "name": "elvish",
+    "value": false,
+    "description": "",
+    "meta": { "type": "standard", "speakers": ["elves"], "script": "elvish" }
+  },
+  {
+    "type": "language",
+    "name": "giant",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "standard",
+      "speakers": ["ogres", "giants"],
+      "script": "dwarvish"
+    }
+  },
+  {
+    "type": "language",
+    "name": "gnomish",
+    "value": false,
+    "description": "",
+    "meta": { "type": "standard", "speakers": ["gnomes"], "script": "dwarvish" }
+  },
+  {
+    "type": "language",
+    "name": "goblin",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "standard",
+      "speakers": ["goblinoids"],
+      "script": "dwarvish"
+    }
+  },
+  {
+    "type": "language",
+    "name": "halfling",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "standard",
+      "speakers": ["halflings"],
+      "script": "common"
+    }
+  },
+  {
+    "type": "language",
+    "name": "infernal",
+    "value": false,
+    "description": "",
+    "meta": { "type": "exotic", "speakers": ["devils"], "script": "infernal" }
+  },
+  {
+    "type": "language",
+    "name": "orc",
+    "value": false,
+    "description": "",
+    "meta": { "type": "standard", "speakers": ["orcs"], "script": "dwarvish" }
+  },
+  {
+    "type": "language",
+    "name": "primordial",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "exotic",
+      "speakers": ["elementals"],
+      "script": "dwarvish"
+    }
+  },
+  {
+    "type": "language",
+    "name": "sylvan",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "exotic",
+      "speakers": ["fey creatures"],
+      "script": "elvish"
+    }
+  },
+  {
+    "type": "language",
+    "name": "undercommon",
+    "value": false,
+    "description": "",
+    "meta": {
+      "type": "exotic",
+      "speakers": ["underdark traders"],
+      "script": "elvish"
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 0,
+    "name": "cantrips",
+    "meta": {
+      "active": true,
+      "slotsTotal": 5,
+      "slotsRemaining": 9999,
+      "spellsKnownCount": 5
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 1,
+    "name": "level 1",
+    "meta": {
+      "active": true,
+      "slotsTotal": 3,
+      "slotsRemaining": 3,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 2,
+    "name": "level 2",
+    "meta": {
+      "active": true,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 3,
+    "name": "level 3",
+    "meta": {
+      "active": true,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 4,
+    "name": "level 4",
+    "meta": {
+      "active": true,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 5,
+    "name": "level 5",
+    "meta": {
+      "active": true,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 6,
+    "name": "level 6",
+    "meta": {
+      "active": true,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 7,
+    "name": "level 7",
+    "meta": {
+      "active": true,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 8,
+    "name": "level 8",
+    "meta": {
+      "active": false,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  },
+  {
+    "type": "spell level",
+    "value": 9,
+    "name": "level 9",
+    "meta": {
+      "active": false,
+      "slotsTotal": 2,
+      "slotsRemaining": 2,
+      "spellsKnownCount": 3
+    }
+  }
+]
