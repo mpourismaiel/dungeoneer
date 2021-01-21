@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@rollup/plugin-json": "^4.0.2",
-    "immer": "^5.3.6",
+    "immer": "^8.0.1",
     "node-sass": "^4.13.1",
     "sirv-cli": "^0.4.4",
     "svelte-preprocess": "^3.4.0",
